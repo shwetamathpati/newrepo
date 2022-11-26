@@ -1,0 +1,29 @@
+Q. Explain string function .
+
+A sting is a sequece of character.
+
+following are some function of string::
+
+(1)strlen():: The strlen() funtion returns the length of a string.
+EX:<?php
+echo strlen("hello ");
+?>
+output:5
+
+(2)str_word_count():: This function counts the number of words in a string.
+EX::<?php
+ echo str_word_count("hello you");
+?>
+output:2
+
+(3)strrev()::This function reverse a string.
+EX::<?php
+echo strrev("hello");
+?>
+output:olleh
+
+(4)str_replace()::This function replace the  other charcter with some other character in a strring.
+EX::<?php
+echo str_replace("hi","Gon","Hello kill");
+?>
+output:: Hello kill
